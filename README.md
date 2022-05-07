@@ -28,9 +28,15 @@ SO THAT a strong password is created that provides greater security.
 
 ## GitHub Repo URL:
 
+https://github.com/nkamth/Password-Generator
+
 ## Deployed URL:
 
+https://nkamth.github.io/Password-Generator/
+
 ## Screenshot :
+
+<img width="1280" alt="Screen Shot 2022-05-06 at 11 52 17 PM" src="https://user-images.githubusercontent.com/97250880/167237184-f84c87d2-e1a9-4c9e-b404-bf6690fc71b5.png">
 
 ---
 
