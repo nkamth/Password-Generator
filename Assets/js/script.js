@@ -17,19 +17,15 @@ function generatePassword(){
      var randomPassword="";
 
     passwordLength=window.prompt("How many charcters long would you like your password to be?\nPassword length must be 8 to 128 characters long!");
-    console.log(passwordLength);
     //If the user has entered any input then execute the code within If ! else exit if clicked Cancel !
     if(passwordLength)
     {
         //check if the length entered by the user is valid else prompt the user to re enter the length!
         if(passwordLength >=8 && passwordLength <=128)
         {
-            console.log("correct");
             // invokes the passwordPrompts() function and assigns the return value to variabe ramdomPassword !
             randomPassword=passwordPrompts();
-            console.log("password is:",randomPassword);
         }else{
-            console.log("Wrong");
             window.alert("Invalid Password length !\nPassword length must be 8 to 128 characters long!");
             generatePassword();
         }
@@ -83,7 +79,6 @@ function passwordPrompts(){
             possiblePassword="";
         }
     }
-    console.log(possiblePassword);
     return possiblePassword;
 }
 // Write password to the #password input
